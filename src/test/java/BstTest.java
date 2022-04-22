@@ -23,8 +23,6 @@ public class BstTest {
 
     @Test
     void testValueExistsIn() {
-        //boolean node = tree.Contains(tree.root, 4);
-
         Assertions.assertTrue(tree.Contains(tree.root, 64));
     }
 
